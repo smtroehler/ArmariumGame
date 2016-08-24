@@ -1,0 +1,69 @@
+# List all .h files here
+set(HEADERS
+   GLSL.h
+   tiny_obj_loader.h
+   Camera.h
+   MatrixStack.h
+   Program.h
+   ShapeObj.h
+   GameObject.h
+   TimeManager.h
+   Spell.h
+   ArcaneExplosion.h
+   FireBall.h
+   ScatterShot.h
+   PlayerObject.h
+   SceneObject.h
+   Enemy.h
+   Texture.h
+   ParticleSystem.h
+   Particle.h
+   HudObject.h
+   Light.h
+   Bounds.h
+   QuadTree.h
+   GameHud.h
+   ImportSmd.h
+   MainMenu.h
+   DefferedShader.h
+   EnemySpawner.h
+   Bookmonster.h
+   CubeMap.h
+   EnemyArcaneExplosion.h
+   EnemySpell.h
+)
+
+# List all .c / .cpp files here
+set(SOURCES
+   main.cpp
+   GLSL.cpp
+   tiny_obj_loader.cc
+   Camera.cpp
+   MatrixStack.cpp
+   Program.cpp
+   ShapeObj.cpp
+   GameObject.cpp
+   TimeManager.cpp
+   Spell.cpp
+   ArcaneExplosion.cpp
+   FireBall.cpp
+   ScatterShot.cpp
+   PlayerObject.cpp
+   SceneObject.cpp
+   Enemy.cpp
+   Texture.cpp
+   HudObject.cpp
+   ParticleSystem.cpp
+   Light.cpp
+   Bounds.cpp
+   QuadTree.cpp
+   GameHud.cpp
+   ImportSmd.cpp
+   MainMenu.cpp
+   DefferedShader.cpp
+   EnemySpawner.cpp
+   Bookmonster.cpp
+   CubeMap.cpp
+   EnemyArcaneExplosion.cpp
+   EnemySpell.cpp
+)
